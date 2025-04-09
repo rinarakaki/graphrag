@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "graphrag",
+  "graphrag-cli",
+]
+resolver = "3"

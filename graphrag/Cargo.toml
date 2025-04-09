@@ -1,0 +1,19 @@
+[package]
+name = "graphrag"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+azure_identity = "0.23"
+azure_storage_blob = "0.1"
+chrono = "0.4.40"
+log = "0.4"
+ndarray = "0.16"
+polars = { version = "0.46", features = ["lazy"] }
+rustworkx-core = "0.16"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tiktoken = { git = "https://github.com/openai/tiktoken" }
+tiktoken-rs = "0.6"
+tokio = { version = "1", features = ["full"] }
+uuid = { version = "1", features = ["v4"] }

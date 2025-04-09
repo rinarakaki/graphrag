@@ -1,0 +1,10 @@
+[package]
+name = "graphrag-cli"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+clap = "4"
+log = "0.4"
+graphrag = { path = "../graphrag" }
+tokio = { version = "1", features = ["full"] }
